@@ -1,0 +1,86 @@
+Config DB:
+www/config.php (Config DB)
+www/templates/conn.php (Test Class DB)
+www/include/conn_.php (Conexión DB para algunos Scripts)
+
+Chequeos:
+www/check-user.php (Chequea que no haya otro usuario igual)
+www/check-key.php (Chequea que la Key sea única)
+www/check-ip.php (Chequea que la IP sea real)
+www/check-email.php (Chequea que no se repiten los correos)
+
+Panel:
+www/panel.php (Panel ADM)
+www/genAcc.php (Generador Cuenta)
+www/include/accCount_.php (Muestra cuentas generadas)
+www/include/accCount.php (Muestra cuentas generadas)
+www/include/accsuspend.php (Muestra Cuentas bloqueadas)
+
+Config User:
+www/configuser.php (Configuración del Usuario)
+
+Mensajes:
+www/messages.php (Mensajes del Sistema)
+
+Pruebas de Key:
+www/testKey.php (Prueba de Keys)
+www/js/genKey.js (Sirve para generar keys)
+www/include/genKey.php (Sirve para generar keys)
+www/include/keygen_.php (Sirve para mostrar las key generadas)
+
+Perfil:
+www/perfil.php (Ver Perfil)
+
+Registro:
+www/register.php (Registro)
+
+Login:
+www/index.php (Para ingresar)
+
+Home:
+www/home.php (Escritorio del usuario)
+www/include/aCount.php (Cuenta los administradores y staff)
+www/include/accCount.php (Cuenta las cuentas registradas totales)
+www/include/uCount.php (Cuenta las cuentas registradas no staff o adm)
+
+Logout:
+www/logout.php (Salir de la cuenta)
+
+Funciones:
+www/func.php (Funciones que no se ocupan aún)
+www/include/functions.php (Funciones que no se ocupan aún)
+www/templates/funcionLevel.php (Muestra Rango de los Usuarios)
+www/templates/funcion.php (Seguridad)
+
+Templates:
+www/templates/footer.php (Píe de Pagina)
+www/templates/header.php (Cabecera)
+www/templates/message.php (Plantilla Mensajes)
+www/templates/include.php (Variables)
+
+Hash:
+www/key/genPass.php (Hashs)
+www/include/genPass.php (Generador de Contraseñas Aleatorias)
+
+Include:
+www/include/autoDelete.php (Expira Suscricipción deja en level 0)
+www/include/class_curl.php (Class para cUrls)
+www/include/class_mail.php (Class para Correos)
+www/include/iP.php (Muestra la IP real del usuario)
+www/include/iP_t.php (Muestra la IP real del usuario + ubicación)
+www/include/navegador.php (Muestra el navegador del usuario)
+www/include/sistema.php (Muestra el sistema operativo del usuario)
+
+Sistema:
+www/CI/DBclass.php (Class de la Base de Datos)
+www/CI/Script.php (Class de los generadores de Usuarios y Key)
+www/CI/Task.php (Class para los mantenimientos)
+www/CI/User.php (Class para los registro, actualizaciones e ingresos de cuentas)
+
+Estilos & Otros:
+www/vendor/* (CSS y JS del sistema)
+www/styles/* (CSS Predeterminado)
+www/css/* (CSS general)
+www/fonts/* (Fonts de FontAwesome)
+www/js/* (Estan los JS para los generador de Key, Cuentas, registro, etc)
+www/js/config.php (Chequea DB)
