@@ -1,9 +1,6 @@
 # Base_TCheckPro
 Basde Template of TesteChkPro
 
-Contact me:
- * Telegram: https://t.me/MrPopos2
-
 ## INCLUDE
 * System Expire from USERS VIP✔
 * Auto Change Level✔
@@ -190,3 +187,6 @@ Información Usuarios
 
 ## ❗❗❗This project is in beta and there will be many bugs❗❗❗
 ### Created by JkDev🇦🇷 . All rights reserved
+
+Contact me:
+ * Telegram: https://t.me/MrPopos2
