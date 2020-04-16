@@ -104,12 +104,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`user_id`, `name`, `email`, `key_tcp`, `password`, `level`, `creditos`, `picture`, `genBy`, `descripcion`, `created`, `expireAcc`, `myIP`) VALUES
-(5, 'JKDev', 'jkdev@gmail.com', 'TCP-123-456', 'f6de7dae85dded412831f3496510a664', '5', '100', '', '', 'salame', '2018-05-05', '', ''),
-(12, 'Cleverson\r\n', 'Wayne6498@jkdev.com', 'TCP-niq-7aP', '7658065a36297fbf007ef735e3c4d84f', '0', '0', '', 'JKDev', '', '2020-01-05', '2020-01-24', ''),
-(20, 'Jheniffa\r\n', 'Vanilza8108@jkdev.com', 'TCP-kgR-Nyz', 'e60d1ebec5f3e7d082cb091cceaa04dd', '6', '0', '', 'JKDev', '', '2020-01-06', '2020-01-15', ''),
-(32, 'Sueny\r\n', 'Grecia1893@jkdev.com', 'TCP-eb5-6Mg', '7bdae741115873db2155859f5f9f5430', '0', '0', '', 'JKDev', '', '2020-01-22', '', ''),
-(33, 'Deyvis\r\n', 'Sevora6233@jkdev.com', 'TCP-4NR-3RH', '6f2aaae362675164f101cfa0fd0f3df8', '0', '100', '', 'JKDev', '', '2020-01-22', '', '::1'),
-(34, 'Christine\r\n', 'Elveston5967@jkdev.com', 'TCP-5NF-7if', '33587fce7a8dcb346514701a43d663ab', '0', '100', '', '', '', '2020-01-22', '', '::1');
+(5, 'JKDev', 'jkdev@gmail.com', 'TCP-123-456', 'f6de7dae85dded412831f3496510a664', '5', '100', '', '', 'JkDev', '2018-05-05', '', '');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
